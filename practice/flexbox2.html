@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-wdith,
+    initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body { 
+            margin: 2rem;
+        }
+        header {
+            padding: 2rem;
+            background-color: #f5f8d2
+        }
+        menu {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        footer {
+            padding: 2rem;
+            background-color: #ccc;
+        }
+        main {
+            background-color: #d2f8f7;
+        }
+        div { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-evenly;
+        }
+        p {
+            padding: 1rem;
+            margin: .1rem;
+            border: 1px solid #000
+        }
+    </style>
+</head>
+<body>
+    <header> 
+    <!-- TODO: add logo -->
+    <nav>
+        <menu>
+            <li>home</li>
+            <li>page 2</li>
+            <li>page 3</li>
+        </menu>
+    </nav>
+    </header>
+    <main> 
+    <!-- Every page must have a header 1 -->
+    <h1>
+        This will be header1
+    </h1>
+    <div>
+<p>I put some text</p>
+<p>I put some text</p>
+<p>I put some text</p>
+<p>I put some text</p>
+<p>I put some text</p>
+<p>I put some text</p>
+    </div>
+    </main>
+<footer> 
+    I am adding stuff here so I can see a footer
+</footer>
+</body>
+</html>
