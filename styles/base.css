@@ -35,14 +35,14 @@ h4 {
 /*dropdown container */
 .dropdown {
   position: relative;
-  /* So the dropdown content is positioned relative to this */
+  /* So the dropdown content is positioned relative to button */
   display: inline-block;
   /* Align with other items in menu, control size more */
 }
 
 .dropbtn {
-  background-color: grey;
-  color: white;
+  background-color: #a2a2a2;
+  color: #ffffff;
   padding: 10px 16px;
   /* Padding inside the button, makes it looks better */
   font-size: 1rem;
