@@ -1,111 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<!doctype html> <!-- Tells the browser this is an HTML5 document -->
+<html lang="en"> <!-- Starts the HTML page and says the language is English -->
+
+<head> <!-- contains information about the page -->
+
+  <meta charset="utf-8"> <!-- make sure everything shows up correctly -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page work well on phones and tablets -->
   <title>Home Page</title>
-  <link rel="stylesheet" href="styles/base.css">
-  <style>
-    /* Dropdown Menu Styles */
-    .navbar {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      font-family: Arial, sans-serif;
-    }
+  <link rel="stylesheet" href="../styles/base.css">
 
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropbtn {
-      background-color: grey;
-      color: white;
-      padding: 10px 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      right: 0;
-      background-color: #f9f9f9;
-      min-width: 250px;
-      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-      border-radius: 5px;
-    }
-
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #f1f1f1;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-      background-color: grey;
-    }
-  </style>
 </head>
-<body>
 
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Destinations</button>
-      <div class="dropdown-content">
-        <a href="index.html">Home</a>
-        <a href="pages/page1.html/national_parks.html">National Parks and Natural Wonders</a>
-        <a href="pages/page2.html/mountains_and_hiking_destinations.html">Mountains and Hiking Destinations</a>
-        <a href="pages/page3.html/major_cities.html">Major Cities</a>
-        <a href="pages/page4.html/beaches_and_coastal_areas.html">Beaches and Coastal Areas</a>
-        <a href="pages/page5.html/deserts_and_arid_landscapes.html">Deserts and Arid Landscapes</a>
-        <a href="pages/page6.html/jungles_and_rainforests.html">Jungles and Rainforests</a>
-        <a href="pages/page7.html/historical_sites.html">Historical Sites</a>
+<body> <!-- shows up on the screen -->
+
+  <!-- Menu -->
+  <nav class="navbar"> <!-- shows this is the navigation area -->
+    <div class="dropdown"> <!-- A dropdown container for the menu (groups them together)-->
+      <button class="dropbtn">Menu</button> <!-- The button people click to see the dropdown -->
+      <div class="dropdown-content"> <!-- The hidden menu that shows when hovering -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/mountains_and_hiking_destinations.html">Mountains and Hiking Destinations</a></li>
+          <li><a href="pages/major_cities.html">Major Cities</a></li>
+          <li><a href="pages/beaches_and_coastal_areas.html">Beaches and Coastal Areas</a></li>
+          <li><a href="pages/deserts_and_arid_landscapes.html">Deserts and Arid Landscapes</a></li>
+          <li><a href="pages/jungles_and_rainforests.html">Jungles and Rainforests</a></li>
+          <li><a href="pages/historical_sites.html">Historical Sites</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <h1>Travel Inspiration Guide</h1>
-  <h2>Explore the World</h2>
-  <h3>
-    <img
-      src="https://km.visamiddleeast.com/content/dam/VCOM/regional/cemea/generic-cemea/travel-with-visa/images/deserted-beach-travel-800x450.jpg"
-      alt="vacation" width="800"
-    />
-  </h3>
+  </body>
 
-  <h4>Find Your Next Destination</h4>
-
-  <!-- List of Locations -->
-  <p><a href="pages/page1.html/national_parks.html">National Parks and Natural Wonders</a></p>
-  <p><a href="pages/page2.html/mountains_and_hiking_destinations.html">Mountains and Hiking Destinations</a></p>
-  <p><a href="pages/page3.html/major_cities.html">Major Cities</a></p>
-  <p><a href="pages/page4.html/beaches_and_coastal_areas.html">Beaches and Coastal Areas</a></p>
-  <p><a href="pages/page5.html/deserts_and_arid_landscapes.html">Deserts and Arid Landscapes</a></p>
-  <p><a href="pages/page6.html/jungles_and_rainforests.html">Jungles and Rainforests</a></p>
-  <p><a href="pages/page7.html/historical_sites.html">Historical Sites</a></p>
-
-  <!-- Footer -->
-  <footer style="text-align: center; margin-top: 50px; padding: 20px; background-color: #f0f0f0;">
-    <p><strong>Contact Us</strong></p>
-    <p>406-270-4439</p>
-  </footer>
-
-</body>
-</html>
   
